@@ -1,3 +1,6 @@
+# Eclipse config folder
+.metadata/
+
 # Compiled class file
 *.class
 
