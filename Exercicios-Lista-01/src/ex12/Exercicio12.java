@@ -13,7 +13,7 @@ public class Exercicio12 {
 		
 		// input de valores para o array numeros
 		for (int c = 0; c < numeros.length; c++) {
-			System.out.printf("%d º número: ", c+1);
+			System.out.printf("%dº número: ", c+1);
 			numeros [c] = leitor.nextDouble();
 		}
 		
