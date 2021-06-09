@@ -6,9 +6,9 @@ public class TesteBreakContinue {
 		
 		for (int i=0; i<9; i++) {
 			if (i == 5) {
-				break;
+				continue; // pula para a próxima interação;
 			}
-			System.out.println(i);
+			System.out.print(i + " ");
 		}
 		
 		System.out.println("Saiu do for!");
