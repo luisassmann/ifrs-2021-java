@@ -1,27 +1,19 @@
-package exercicios01;
+package ex3;
 
 import java.util.Scanner;
 
-public class IgualOuDiferente {
+public class Exercicio3 {
 
 	public static void main(String[] args) {
-		// Exercicio 3
 		
 		Scanner leitor = new Scanner(System.in);
-		
-		// Input ¬
-		
-		// Pedir dois números inteiros.
+
 		System.out.print("Digite um número inteiro: ");
 		int numero1 = leitor.nextInt();
 		
 		System.out.print("Digite outro número inteiro: ");
 		int numero2 = leitor.nextInt();
-		
-		// Output ¬
-		
-		// Verificar se os números são iguais,
-		// senão, verificar qual é o maior.
+
 		if (numero1 == numero2) {
 			System.out.println("Os números são iguais.");
 		} else
@@ -32,5 +24,7 @@ public class IgualOuDiferente {
 			}
 		
 		leitor.close();
+		
 	}
+
 }

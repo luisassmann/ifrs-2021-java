@@ -1,11 +1,10 @@
-package exercicios01;
+package ex8;
 
 import java.util.Scanner;
 
-public class FuncionarioAumento {
+public class Exercicio8 {
 
 	public static void main(String[] args) {
-		// Exercicio 7
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -14,11 +13,11 @@ public class FuncionarioAumento {
 		System.out.print("Informe seu salário: ");
 		double salario = leitor.nextDouble();
 		
-		int aumento = 10;
-		if (salario <= 2000) {
+		int aumento = 20;
+		if (salario > 1000 && salario <= 2000) {
 			aumento = 15;
-		} if (salario <= 1000) {
-			aumento = 20;
+		} else if (salario >= 2000) {
+			aumento = 10;
 		}
 		
 		double novoSalario = salario + (salario * aumento / 100);

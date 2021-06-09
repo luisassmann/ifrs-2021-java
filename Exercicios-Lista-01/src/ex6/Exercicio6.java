@@ -1,12 +1,10 @@
-package exercicios01;
+package ex6;
 
 import java.util.Scanner;
 
-public class CarroCombustivel {
+public class Exercicio6 {
 
 	public static void main(String[] args) {
-		// Exercicio 6
-		
 		Scanner leitor = new Scanner(System.in);
 		
 		System.out.println("Calculador de consumo\n");
@@ -23,8 +21,10 @@ public class CarroCombustivel {
 		double distanciaViagem = kmDepois - kmAntes;
 		double mediaConsumo = gasolina / distanciaViagem;
 		
-		System.out.printf("\n\nO carro consumiu %.2f litros por quilômetro.", mediaConsumo);
+		System.out.printf("\n\nO carro consumiu %.2f litros de gasolina por quilômetro.",
+				mediaConsumo);
 		leitor.close();
+
 	}
 
 }

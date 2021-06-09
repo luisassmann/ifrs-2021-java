@@ -1,11 +1,10 @@
-package exercicios01;
+package ex11;
 
 import java.util.Scanner;
 
-public class SucessorAntecessor {
+public class Exercicio11 {
 
 	public static void main(String[] args) {
-		// Exercicio 11
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -16,6 +15,7 @@ public class SucessorAntecessor {
 		System.out.printf("Antecessor do número %d é %d.", num, num-1);
 		
 		leitor.close();
+		
 	}
 
 }

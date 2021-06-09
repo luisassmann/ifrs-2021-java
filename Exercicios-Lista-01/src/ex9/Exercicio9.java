@@ -1,15 +1,13 @@
-package exercicios01;
+package ex9;
 
 import java.util.Scanner;
 
-public class MediaEMaiorOuMenor {
+public class Exercicio9 {
 
 	public static void main(String[] args) {
-		// Exercicio 9
-		
 		Scanner leitor = new Scanner(System.in); 
 		
-		// array de 4 valores double
+		// 4 numeros
 		double[] numeros = new double[4];
 		
 		// input de valores para o array numeros
@@ -45,6 +43,7 @@ public class MediaEMaiorOuMenor {
 		System.out.printf("Menor número: %.1f", menor);
 		
 		leitor.close();
+
 	}
 
 }

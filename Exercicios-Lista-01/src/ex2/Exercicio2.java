@@ -1,23 +1,16 @@
-package exercicios01;
+package ex2;
 
 import java.util.Scanner;
 
-public class ParOuImpar {
-
+public class Exercicio2 {
+	
 	public static void main(String[] args) {
-		// Exercicio 2
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		// Input ¬
-		
-		// Pedir um número.
 		System.out.print("Digite um número: ");
 		int numero = leitor.nextInt();
-		
-		// Output ¬
-		
-		// Verificar se o número é par ou ímpar.
+
 		if (numero % 2 == 0) {
 			System.out.println("O número é par.");
 		} else {
@@ -25,6 +18,6 @@ public class ParOuImpar {
 		}
 		
 		leitor.close();
+		
 	}
-
 }

@@ -1,13 +1,13 @@
-package exercicios01;
+package ex4;
 
 import java.util.Scanner;
 
-public class VolumeEsfera {
+public class Exercicio4 {
 
 	public static void main(String[] args) {
-		// Exercicio 4
 		
 		System.out.println("-----Calculadora-de-Volume-de-Esfera-----\n");
+		
 		/*
 		 	Programa que calcula o Volume de uma esfera.
 		 	Para tal, o usuário informará o raio da esfera.
@@ -24,9 +24,10 @@ public class VolumeEsfera {
 		double raio = leitor.nextDouble();
 		
 		double volume = (4.0/3.0) * pi * Math.pow(3, raio);
-		System.out.println("O volume da esfera é "+volume);
+		System.out.printf("O volume da esfera é %.3f", volume);
 		
 		leitor.close();
+
 	}
 
 }

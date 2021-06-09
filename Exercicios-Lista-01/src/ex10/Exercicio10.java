@@ -1,11 +1,10 @@
-package exercicios01;
+package ex10;
 
 import java.util.Scanner;
 
-public class SalariosMinimosRecebidos {
+public class Exercicio10 {
 
 	public static void main(String[] args) {
-		// Exercicio 10
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -17,11 +16,11 @@ public class SalariosMinimosRecebidos {
 		
 		double salarios = salario / salarioMinimo;
 		
-		System.out.printf("\nO salário de R$ %.2f vale %.1f salários mínimos.",
-				salario,
+		System.out.printf("\nVocê recebe %.1f salários mínimos.",
 				salarios);
 		
 		leitor.close();
+
 	}
 
 }

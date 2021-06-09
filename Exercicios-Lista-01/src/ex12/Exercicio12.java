@@ -1,11 +1,10 @@
-package exercicios01;
+package ex12;
 
 import java.util.Scanner;
 
-public class MediaDaMedia {
+public class Exercicio12 {
 
 	public static void main(String[] args) {
-		// Exercicio 12
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -37,6 +36,7 @@ public class MediaDaMedia {
 		System.out.printf("\nMédia das médias: %d", mediaDasMedias);
 		
 		leitor.close();
+
 	}
 
 }
