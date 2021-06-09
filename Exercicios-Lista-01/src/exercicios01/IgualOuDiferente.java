@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class IgualOuDiferente {
 
 	public static void main(String[] args) {
+		// Exercicio 3
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		// Input ¬

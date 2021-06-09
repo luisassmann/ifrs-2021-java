@@ -6,6 +6,8 @@ import java.text.DecimalFormat;
 public class SalarioAumento {
 
 	public static void main(String[] args) {
+		// Exercicio 5
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		

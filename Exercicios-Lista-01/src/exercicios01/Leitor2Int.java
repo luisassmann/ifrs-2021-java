@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Leitor2Int {
 
 	public static void main(String[] args) {
+		// Exercicio 1
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		// Input ¬
