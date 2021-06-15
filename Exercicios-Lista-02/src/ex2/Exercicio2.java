@@ -7,7 +7,7 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
 		
-		System.out.print("Informe um nÃºmero inteiro: ");
+		System.out.print("Informe um número inteiro: ");
 		int n = leitor.nextInt();
 		
 		int div = 2;
@@ -23,9 +23,9 @@ public class Exercicio2 {
 		}
 		
 		if (primo) {
-			System.out.printf("O nÃºmero %d Ã© primo.", n);
+			System.out.printf("O número %d é primo.", n);
 		} else {
-			System.out.printf("O nÃºmero %d nÃ£o Ã© primo.", n);
+			System.out.printf("O número %d não é primo.", n);
 		}
 		
 		leitor.close();
