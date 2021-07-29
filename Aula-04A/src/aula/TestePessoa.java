@@ -21,6 +21,9 @@ public class TestePessoa {
 		p3.setIdade(30);
 		System.out.println(p3.getIdade());
 		
+		
+		p1.falar("Olá, bom dia.");
+		
 	}
 
 }
