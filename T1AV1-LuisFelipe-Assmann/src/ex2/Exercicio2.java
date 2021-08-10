@@ -11,14 +11,14 @@ public class Exercicio2 {
 		System.out.print("Informe x: ");
 		double x = leitor.nextDouble();
 		System.out.print("Informe y: ");
-		double y = leitor.nextDouble();		
+		double y = leitor.nextDouble();
 		
 		if ((x >= 0 && y >= 0) &&
 			((x*x + y*y) <= 1))
 		{
 			System.out.println("O ponto real ("+x+", "+y+") pertence a H.");
 		} else {
-			System.out.println("O ponto real ("+x+", "+y+") não pertence a H.");
+			System.out.println("O ponto real ("+x+", "+y+") nï¿½o pertence a H.");
 		}
 		
 		leitor.close();
