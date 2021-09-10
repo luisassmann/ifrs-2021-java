@@ -5,10 +5,10 @@ public class ContaBancaria {
 	public double saldo;
 	public boolean especial;
 	
-	public void abreConta(String nome, double deposito, boolean éEspecial) {
+	public void abreConta(String nome, double deposito, boolean ehespecial) {
 		this.nomeDoCorrentista = nome;
 		this.saldo = deposito;
-		this.especial = éEspecial;
+		this.especial = ehespecial;
 	}
 	
 	public void abreContaSimples(String nome) {

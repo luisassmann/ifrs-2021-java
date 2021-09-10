@@ -1,6 +1,12 @@
 # Eclipse config folder
 .metadata/
 
+# VSCode config folder
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
 # Compiled class file
 *.class
 
