@@ -16,7 +16,7 @@ public class Exercicio3 {
 		
 		int anos = cp.calculaAnos();
 		
-		System.out.printf("A população da cidade A terá maior população que a cidade B em %d anos.\n", anos);
+		System.out.printf("A populacao da cidade A tera maior populacao que a cidade B em %d anos.\n", anos);
 		
 		scan.close();
 	}
