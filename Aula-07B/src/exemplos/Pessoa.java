@@ -31,8 +31,16 @@ public class Pessoa {
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.cidadeNascimento = cidadeNascimento;
-		this.idade = 0;
+		this.idade = 1;
 		this.numeroFilhos = 0;
+	}
+	
+	public Pessoa(String nome, String sobrenome, int idade, String cidadeNascimento, int numeroFilhos) {
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.idade = idade;
+		this.cidadeNascimento = cidadeNascimento;
+		this.numeroFilhos = numeroFilhos;
 	}
 	
 	// metodos get/set
