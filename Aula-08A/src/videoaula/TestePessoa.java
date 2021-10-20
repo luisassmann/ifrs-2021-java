@@ -11,6 +11,7 @@ public class TestePessoa {
 		pessoas[1] = new Pessoa("Lucas", 45);
 		pessoas[2] = new Pessoa("Mario", 15);
 		
+		pessoas[0].setNome("Mary");
 		// Percorrendo o array
 		for (Pessoa p : pessoas) {
 			System.out.print(p.getNome() + " ");

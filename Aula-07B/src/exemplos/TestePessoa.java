@@ -15,7 +15,7 @@ public class TestePessoa {
 		System.out.println(p1.getNome());
 		System.out.println(p1.getSobrenome());
 		System.out.println(p1.getIdade());
-		System.out.println(p1.getCidadeNascimento())	;
+		System.out.println(p1.getCidadeNascimento());
 		System.out.println(p1.getNumeroFilhos());
 		
 		System.out.println("-------------------");
