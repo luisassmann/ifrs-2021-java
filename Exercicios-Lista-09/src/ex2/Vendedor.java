@@ -1,5 +1,20 @@
 package ex2;
 
-public class Vendedor {
-
+public class Vendedor extends Empregado {
+	private double valorVendas;
+	private double comissao; // porcentagem do valor vendas
+	
+	public double getValorVendas() {
+		return valorVendas;
+	}
+	public void setValorVendas(double valorVendas) {
+		this.valorVendas = valorVendas;
+	}
+	public double getComissao() {
+		return comissao;
+	}
+	public void setComissao(double comissao) {
+		this.comissao = comissao;
+	}	
+	
 }
