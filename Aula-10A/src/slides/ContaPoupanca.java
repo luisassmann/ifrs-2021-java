@@ -15,6 +15,5 @@ public class ContaPoupanca extends Conta {
 	public void setTaxaJuros(double taxaJuros) {
 		this.taxaJuros = taxaJuros;
 	}
-	
-	
+
 }
