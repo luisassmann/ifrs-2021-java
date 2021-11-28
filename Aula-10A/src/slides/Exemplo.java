@@ -7,7 +7,7 @@ public class Exemplo {
 		ContaPoupanca cp = new ContaPoupanca();
 		cp.setCorrentista("Bob Esponja");
 		cp.setSaldo(1000);
-		cp.setTaxaJuros(5); // Taxa de juros em porcentagem (Ex: 5%)
+		cp.setTaxaJuros(5);  // Taxa de juros em porcentagem (Ex: 5%)
 		cp.atualizaSaldo();
 		double saldo = cp.obterSaldo();
 		
@@ -15,11 +15,17 @@ public class Exemplo {
 
 
 		ContaCorrente cc = new ContaCorrente();
-		cp.setCorrentista("Patrick Estrela");
-		cp.setSaldo(350);
-		cp.setLimite(100);
-		cp.cancelarLimite();
-		double limite = cp.getLimite();
+		cc.setCorrentista("Patrick Estrela");
+		cc.setSaldo(350);
+		cc.setLimite(100);
+		// cc.cancelarLimite();
+		double limite = cc.getLimite();
+		
+		Conta c = new Conta();
+		c.setSaldo(300);
+		c.setCorrentista("Juquinha");
+		
+		System.out.printf("Saldo da conta poupanca: R$ %.2f\n", limite);
 		
 
 	}
