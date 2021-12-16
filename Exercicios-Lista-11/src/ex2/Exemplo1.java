@@ -35,5 +35,11 @@ public class Exemplo1 {
 		Sapato sapato = new Sapato(nomeSap, valorSap, marcaSap);
 		
 		scan.close();
+		
+		
+		Comprador c = new Comprador();
+		c.consulta(sapato);
+		c.consulta(camiseta);
+		
 	}
 }
