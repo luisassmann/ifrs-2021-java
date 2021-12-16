@@ -12,8 +12,8 @@ public class Produto {
 
 
 	public void imprimir() {
-		System.out.println("Nome: "+this.nome);
-		System.out.println("Valor: "+this.valor);
+		System.out.println("\nNome: "+this.nome);
+		System.out.printf("Valor: R$ %.2f\n", this.valor);
 	}
 	
 	
