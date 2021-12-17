@@ -30,5 +30,4 @@ public class Produto {
 		this.valor = valor;
 	}
 	
-	
 }
