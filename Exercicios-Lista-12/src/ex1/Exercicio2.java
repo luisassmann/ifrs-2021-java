@@ -102,7 +102,7 @@ public class Exercicio2 {
 					}
 					
 				}
-					
+				
 			}
 			
 		} while (opt != 0);
