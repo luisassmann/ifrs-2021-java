@@ -13,7 +13,7 @@ public class Exercicio2 {
 		
 		System.out.println("Gerenciamento de pessoas:");
 		
-		int opt=10;
+		int opt=0;
 		do {
 			System.out.println("\nOpções:");
 			System.out.println("  (1) Inserir uma nova pessoa;");
@@ -42,12 +42,16 @@ public class Exercicio2 {
 					System.out.print("\nCPF da pessoa a ser removida: ");
 					String cpf = scan.nextLine();
 					
+					boolean encontrada = false;
 					for (int i=0; i < pessoas.size(); i++) {
 						if (pessoas.get(i).getCpf().equals(cpf)) {
-							pessoas.remove(i);
 							System.out.println(pessoas.get(i).getNome() + " removido(a).");
+							pessoas.remove(i);
+							encontrada = true;
 						}
 					}
+					if (!encontrada) System.out.println("Não foi encontrada a pessoa com o CPF informado.");
+					
 					break;
 				}
 				case 3: {
@@ -71,27 +75,31 @@ public class Exercicio2 {
 				}
 				case 4: {
 					System.out.println("\nLista das pessoas já cadastradas:");
-					System.out.println("------------------");
+					System.out.println("-------------------------------------------------------------");
+					System.out.printf("%30s | %15s | %8s", "Nome", "CPF", "Idade");
+					System.out.println("\n-------------------------------------------------------------");
 					for ( Pessoa pessoa : pessoas ) {
-						System.out.println("Nome: " + pessoa.getNome() + ".");
-						System.out.println("CPF: " + pessoa.getCpf() + ".");
-						System.out.println("Idade: " + pessoa.getIdade() + " anos.");
-						System.out.println("------------------");
+						System.out.printf("%30s | %15s | %8s", pessoa.getNome(), pessoa.getCpf(), (pessoa.getIdade() + " anos\n"));
 					}
+					System.out.println("-------------------------------------------------------------");
 					break;
 				}
 				case 5: {
 					System.out.print("\nCPF da pessoa a ser consultada: ");
 					String cpfBusca = scan.nextLine();
 					
+					boolean encontrada = false;
 					for (int i=0; i < pessoas.size(); i++) {
 						if (pessoas.get(i).getCpf().equals(cpfBusca)) {
 							System.out.println("------------------");
 							System.out.println("Nome: " + pessoas.get(i).getNome() + ".");
 							System.out.println("CPF: " + pessoas.get(i).getCpf() + ".");
 							System.out.println("Idade: " + pessoas.get(i).getIdade() + " anos.");
+							encontrada = true;
 						}
 					}
+					if (!encontrada) System.out.println("Não foi encontrada a pessoa com o CPF informado.");
+					
 					break;
 				}
 			
