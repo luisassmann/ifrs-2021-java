@@ -7,7 +7,7 @@ public class TesteArrays1 {
 	public static void main(String[] args) {
 		
 		double[] doubleArray = {8.4, 9.3, 0.2, 7.9, 3.4};
-		ArraysEx.sort(doubleArray);
+		Arrays.sort(doubleArray);
 		for ( double valor : doubleArray ) {
 			System.out.print(valor+" ");
 		}
@@ -15,7 +15,7 @@ public class TesteArrays1 {
 		System.out.println();
 		
 		String[] stringArray = {"Maria","Lucas","Marcelo","Antonio"};
-		ArraysEx.sort(stringArray);
+		Arrays.sort(stringArray);
 		for ( String valor : stringArray ) {
 			System.out.print(valor+" ");
 		}

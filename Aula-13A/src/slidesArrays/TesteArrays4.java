@@ -12,14 +12,14 @@ public class TesteArrays4 {
 		// índice do elemento no Array. Se o elemento
 		// não estiver no Array, retorna um valor negativo.
 		// Importante: O Array deve estar ordenado!
-		int posicao1 = ArraysEx.binarySearch(intArray, 80);
+		int posicao1 = Arrays.binarySearch(intArray, 80);
 		
 		if (posicao1 >= 0)
 			System.out.println("80 encontrado na posição " + posicao1 + ".");
 		else
 			System.out.println("80 não encontrado.");
 		
-		int posicao2 = ArraysEx.binarySearch(intArray, 800);
+		int posicao2 = Arrays.binarySearch(intArray, 800);
 		
 		if (posicao2 >= 0)
 			System.out.println("80 encontrado na posição " + posicao2 + ".");
