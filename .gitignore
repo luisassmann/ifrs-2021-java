@@ -1,3 +1,6 @@
+# Working with files to store information (provisory)
+*.txt
+
 # Eclipse config folder
 .metadata/
 
