@@ -70,22 +70,17 @@ public class Exercicio2 {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				String texto_bruto = textField.getText().strip();
-				String texto_form="";
-				int palavras=1;
-				for (int i=0; i < texto_bruto.length(); i++) {
-					if (texto_bruto.charAt(i) != ' ') {
-						texto_form = texto_form + Character.toString(texto_bruto.charAt(i));
-					} else {
-						if (i < texto_bruto.length()-1) {
-							palavras++;
-						}
-					}
+				String frase = textField.getText().strip();
+				
+				String[] palavras = frase.split(" ");
+				
+				int caracteres=0;
+				for (int i = 0; i < palavras.length; i++) {
+					caracteres+=palavras[i].length();
 				}
+				int qtdePalavras = palavras.length;
 				
-				int caracteres = texto_form.length();
-				
-				textField_1.setText(caracteres + " caracteres e " + palavras + " palavras");
+				textField_1.setText(caracteres + " caracteres e " + qtdePalavras + " palavras");
 				
 			}
 		});
