@@ -7,3 +7,5 @@ Repositório contendo todo o conteúdo apresentado em programação II - program
 Técnico em Informática Integrado ao Ensino Médio - 2° ano.
 
 Professor Moser Fagundes.
+
+(Conteúdo finalizado em fev/2022).
